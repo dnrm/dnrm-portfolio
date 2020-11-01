@@ -1,0 +1,29 @@
+<main>
+    <section id="banner">
+        <div id="banner-text">
+            <h1 id="main-header">I'm Daniel Medina,</h1>
+            <h2>a web developer</h2>
+        </div>
+    </section>
+    <section id="projects">
+        <h3>My Projects</h3>
+        <section id="container">
+            <app-project
+                [name]="'blog.dannermm.com'"
+                [srcUrl]="'https://dannermm.com/profilepic.jpg'"
+                [description]="'This is a project made with Bootstrap and VueJs'">
+            </app-project>
+            <app-project
+                [name]="'Admin Panel'"
+                [srcUrl]="'https://dannermm.com/profilepic.jpg'"
+                [description]="'This was one of my first projects, it is made with just HTML and CSS'">
+            </app-project>
+            <app-project
+                [name]="'Dannermm Website'"
+                [srcUrl]="'https://dannermm.com/profilepic.jpg'"
+                [description]="'This is teh home page of my site'">
+            </app-project>
+        </section>
+    </section>
+</main>
+<app-footer></app-footer>
