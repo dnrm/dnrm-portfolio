@@ -8,7 +8,7 @@ import { RandomComponent } from './components/random/random.component';
 const routes: Routes = [
   {path: '', component: MainComponent},
   {path: 'about', component: RandomComponent},
-  {path: 'projects', component: ProjectComponent},
+  {path: 'projects', component: MainComponent},
   {path: 'random', component: RandomComponent},
 ];
 

@@ -5,14 +5,15 @@
 }
 
 nav {
+    z-index: 100;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 25px;
-    color: black;
-    background: #ffffff;
+    color: rgb(255, 255, 255);
+    background: #1b1b1b;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -33,7 +34,7 @@ nav {
         a {
             text-decoration: none;
             font-family: 'Merriweather', serif;
-            color: black;
+            color: rgb(255, 255, 255);
         }
     }
 
@@ -50,7 +51,7 @@ nav {
             a {
                 text-decoration: none;
                 font-family: 'Merriweather', serif;
-                color: black;
+                color: rgb(255, 255, 255);
                 padding: 5px;
                 border-radius: 5px;
 
@@ -60,8 +61,4 @@ nav {
             }
         }
     }
-}
-
-i {
-    font-size: 1.2em;
 }
