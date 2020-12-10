@@ -1,8 +1,45 @@
-section {
-    padding: 30px;
-    padding-top: 100px;
+section#hero {
+    padding: 80px 50px 80px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.801) url('https://dannermm.s3.amazonaws.com/photo5.jpg');
+    background-blend-mode: darken;
+    color: white;
+
+    .heading {
+        h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 1.5em;
+        }
+    }
+    
+    .external-link {
+        a {
+            display: inline-block;
+            padding: 8px;
+            border-radius: 5px;
+            background-color: transparent;
+            border: 1px solid rgb(92, 92, 231);
+            color:  rgb(92, 92, 231);
+            text-decoration: none;
+        
+            span:nth-child(1) {
+                padding-right: 5px;
+            }
+        
+            i {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+section#about {
+    padding: 80px;
 
     h1 {
-        font-family: 'Merriweather', serif;;
+        font-family: 'Merriweather', serif;
+        font-size: 1.2em;
     }
 }
