@@ -15,5 +15,6 @@ export class ProjectComponent implements OnInit {
   @Input('name') name: string;
   @Input('srcUrl') srcUrl: string;
   @Input('description') description: string;
+  @Input('linkTo') linkto: string;
 
 }
