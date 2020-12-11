@@ -36,10 +36,32 @@ section#hero {
 }
 
 section#about {
-    padding: 80px;
+    padding-top: 50px;
+    text-align: center;
 
     h1 {
         font-family: 'Merriweather', serif;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        padding-bottom: 25px;
+    }
+
+    p {
+        margin: 0 250px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    section#about p {
+        margin: 0 50px;
+    }
+
+    section#hero {
+        flex-direction: column;
+        align-items: flex-start;
+
+        a {
+            margin-top: 15px;
+        }
     }
 }

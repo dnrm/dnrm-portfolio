@@ -18,7 +18,7 @@ const routes: Routes = [
   {path: 'projects', component: ProjectsComponent, children: [
     {path: 'danielmedina-dev', component: DanielmedinadevComponent},
     {path: 'blog-dannermm-com', component: BlogdannermmcomComponent},
-    {path: 'dannermm-website', component: DannermmWebsiteComponent},
+    {path: 'dannermm-com', component: DannermmWebsiteComponent},
     {path: 'admin-panel', component: AdminPanelComponent},
     {path: 'home-page-archive', component: HomePageArchiveComponent}
   ]},
