@@ -6,4 +6,8 @@ import { catchError, retry } from 'rxjs/operators';
 @Injectable()
 export class RequestsService {
     constructor(private http: HttpClient) { }
+
+    getProjects() {
+        
+    }
 }
