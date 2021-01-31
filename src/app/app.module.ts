@@ -7,13 +7,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './components/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectComponent } from './components/project/project.component';
-import { DanielmedinadevComponent } from './components/danielmedinadev/danielmedinadev.component';
-import { BlogdannermmcomComponent } from './components/blogdannermmcom/blogdannermmcom.component';
-import { DannermmWebsiteComponent } from './components/dannermm-website/dannermm-website.component';
-import { AdminPanelComponent } from './components/admin-panel/admin-panel.component';
-import { HomePageArchiveComponent } from './components/home-page-archive/home-page-archive.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { AboutComponent } from './components/about/about.component';
+import { DetailsComponent } from './components/details/details.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +15,7 @@ import { AboutComponent } from './components/about/about.component';
     MainComponent,
     FooterComponent,
     ProjectComponent,
-    DanielmedinadevComponent,
-    BlogdannermmcomComponent,
-    DannermmWebsiteComponent,
-    AdminPanelComponent,
-    HomePageArchiveComponent,
-    ProjectsComponent,
-    AboutComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
