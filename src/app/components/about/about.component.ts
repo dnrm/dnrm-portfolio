@@ -12,7 +12,7 @@ export class AboutComponent implements OnInit {
 
   constructor() {
     if (this.connection == true) {
-      this.src = 'https://dannermm.s3.us-east-1.amazonaws.com/profile.jpg';
+      this.src = 'https://cdn.danielmedina.dev/profile.jpg';
     } else {
       this.src = '../../assets/profile.jpg'
     }
