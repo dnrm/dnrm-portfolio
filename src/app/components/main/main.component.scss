@@ -3,7 +3,7 @@
 }
 
 main {
-    padding-top: 80px;
+    padding-top: 0px;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
     background-size: 6%;
 
@@ -35,4 +35,15 @@ main {
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         }
     }
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    border-radius: 50%;
+  }
 }

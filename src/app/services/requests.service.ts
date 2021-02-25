@@ -13,14 +13,7 @@ export class RequestsService {
         this.url = Global.url;
     }
 
-    getProjects() {
-        return this.http.get(this.url).subscribe(
-            response => {
-                console.log(response);
-            },
-            error => {
-                console.log(error);
-            }
-        );
+    getProjects(url) {
+        return this.http.get(url);
     }
 }
