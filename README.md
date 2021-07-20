@@ -3,7 +3,7 @@
 ---
 By Daniel Medina
 
-This is my portfolio website. It contains the production and development versions. You can see the deployed production version [here](https://danielmedina.dev) and the deployed development version [here](https://dev.dannermm.com). The development version is hosted with [Vercel](https://vercel.com) and the production version in Amazon EC2. Feel free to submit a pull request in case you want to contribute. 
+This is my portfolio website. It contains the production and development versions. You can see the deployed production version [here](https://portfolio-dnrm.vercel.app/) and the deployed development version [here](https://dev.danielmedina.dev). The development version is hosted with [Vercel](https://vercel.com) and the production version in Amazon EC2. Feel free to submit a pull request in case you want to contribute. 
 
 ### Features
 
